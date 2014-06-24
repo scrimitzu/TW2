@@ -1,0 +1,109 @@
+/* Foaie de still CSS - style.css */
+
+* {
+	margin:0px;
+}
+body {
+	color:#444444;
+	font-size:13px;
+	background: #f2f2f2;
+	font-family:"Century Gothic", Helvetica, sans-serif;
+}
+h1 {
+	color:#ccc;
+	font-size:26px;
+	text-shadow:1px 1px 1px #fff;
+	padding:20px;
+}
+#content {
+	margin:15px auto;
+	position:relative;
+	height:100%;
+}
+#wrapper {
+	-moz-box-shadow:0px 0px 3px #aaa;
+	-webkit-box-shadow:0px 0px 3px #aaa;
+	box-shadow:0px 0px 3px #aaa;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:2px solid #fff;
+	background-color:#f9f9f9;
+	overflow:hidden;
+}
+ input:not([type=radio]),  textarea,  select {
+ background: #ffffff;
+ border: 1px solid #ddd;
+ -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+ border-radius: 3px;
+ outline: none;
+ padding: 3px;
+ width: 200px;
+}
+input:focus {
+	-moz-box-shadow:0px 0px 3px #aaa;
+	-webkit-box-shadow:0px 0px 3px #aaa;
+	box-shadow:0px 0px 3px #aaa;
+	background-color:#FFFEEF;
+}
+p.submit {
+	background:none;
+	border:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+
+a {
+	color:#36F;
+	text-decoration:none;
+}
+a:hover {
+	color:#09F;
+	text-decoration:underline;
+}
+input.error {
+	border-color: #D00;
+	color: #D00;
+	background: #FFFFFE;
+}
+label.error {
+	display: inline-block;
+	font-size: 12px;
+	color: #D00;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+.rezervare {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #050505;
+	padding: 7px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#fff200 0%,
+		#ffbf00);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#fff200),
+		to(#ffbf00));
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #ffffff;
+	-moz-box-shadow:
+		2px 1px 3px rgba(255,255,255,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		2px 1px 3px rgba(255,255,255,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		2px 1px 3px rgba(255,255,255,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
